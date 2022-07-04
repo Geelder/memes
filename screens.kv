@@ -1,0 +1,950 @@
+WindowScreen:
+	FirstWindow:
+	SecondWindow:
+	S3Window:
+	S4Window:
+	S5Window:
+	S6Window:
+	S7Window:
+	S8Window:
+	S9Window:
+	S10Window:
+	S11Window:
+	S12Window:
+	S13Window:
+	S14Window:
+	S15Window:
+	S16Window:
+	S17Window:
+	S18Window:
+	S19Window:
+	S20Window:
+	S21Window:
+	S22Window:
+	S23Window:
+	S24Window:
+	S25Window:
+	S26Window:
+	S27Window:
+	S28Window:
+	S29Window:
+	S30Window:
+	S31Window:
+	S32Window:
+	S33Window:
+	S34Window:
+	S35Window:
+	S36Window:
+	S38Window:
+	S39Window:
+	S40Window:
+	S41Window:
+	S42Window:
+
+
+
+
+<FirstWindow>:
+	name: 'first'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '1.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "second"
+			
+
+
+
+<SecondWindow>:
+	name: 'second'
+
+	FloatLayout:
+		orientation: "horizontal"
+		size: root.width, root.height
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '2.png'			
+		Button:
+			
+            size_hint: 1, .13
+            pos: 0, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s3"
+
+
+
+<S3Window>:
+	name: 's3'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '3.png'
+
+		Button:
+			
+            size_hint: .30, .13
+            pos: 32, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s15"
+		Button:
+			
+            size_hint: .31, .13
+            pos: 161, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s17"
+		Button:
+			
+            size_hint: .31, .13
+            pos: 92, 10
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s18"		
+			
+
+<S4Window>:
+	name: 's4'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '4.png'
+
+		Button:
+			
+            size_hint: .30, .13
+            pos: 32, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s19"
+		Button:
+			
+            size_hint: .31, .13
+            pos: 158, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s5"	
+
+<S5Window>:
+	name: 's5'
+
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '5.png'
+
+		Button:
+			
+            size_hint: .30, .13
+            pos: 32, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s21"
+		Button:
+			
+            size_hint: .31, .13
+            pos: 158, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s20"	
+			
+<S6Window>:
+	name: 's6'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '6.png'
+
+		Button:
+			
+            size_hint: .30, .13
+            pos: 32, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s22"
+
+		Button:
+			
+            size_hint: .31, .13
+            pos: 158, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s7"	
+
+
+<S7Window>:
+	name: 's7'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '7.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s8"
+
+<S8Window>:
+	name: 's8'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '8.png'
+
+		Button:
+			
+            size_hint: .31, .15
+            pos: 32, 360
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s24"
+
+		Button:
+			
+            size_hint: .31, .15
+            pos: 158, 360
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s23"
+
+		Button:
+			
+            size_hint: .31, .26
+            pos: 32, 180
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s25"
+
+		Button:
+			
+            size_hint: .31, .15
+            pos: 158, 240
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s27"			
+
+<S9Window>:
+	name: 's9'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '9.png'
+
+		Button:
+			
+            size_hint: .45, .21
+            pos: 0, 250
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s29"
+
+		Button:
+			
+            size_hint: .45, .21
+            pos: 135, 250
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s30"
+		
+		Button:
+			
+            size_hint: .45, .22
+            pos: 0, 80
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s28"
+
+		Button:
+			
+            size_hint: .45, .22
+            pos: 135, 80
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s32"			
+<S10Window>:
+	name: 's10'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '10.png'
+
+		Button:
+			
+            size_hint: .30, .13
+            pos: 32, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s33"
+
+		Button:
+			
+            size_hint: .31, .13
+            pos: 158, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s34"	
+<S11Window>:
+	name: 's11'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '11.png'
+
+		Button:
+			
+            size_hint: .30, .13
+            pos: 32, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s36"
+
+		Button:
+			
+            size_hint: .31, .13
+            pos: 158, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s35"	
+<S12Window>:
+	name: 's12'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '12.png'
+
+		Button:
+			
+            size_hint: .30, .13
+            pos: 32, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s38"
+
+		Button:
+			
+            size_hint: .31, .13
+            pos: 158, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s38"	
+<S13Window>:
+	name: 's13'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '13.png'
+
+		Button:
+			
+            size_hint: .30, .13
+            pos: 32, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s39"
+
+		Button:
+			
+            size_hint: .31, .13
+            pos: 158, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s40"	
+<S14Window>:
+	name: 's14'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '14.png'
+
+		Button:
+			
+            size_hint: .30, .13
+            pos: 32, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s42"
+
+		Button:
+			
+            size_hint: .31, .13
+            pos: 158, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s41"	
+<S15Window>:
+	name: 's15'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '15.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s4"
+<S16Window>:
+	name: 's16'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '16.png'
+
+		Button:
+			
+            size_hint: .50, .13
+            pos: 70, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "second"
+<S17Window>:
+	name: 's17'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '17.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s4"
+<S18Window>:
+	name: 's18'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '18.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s4"
+<S19Window>:
+	name: 's19'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '19.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s6"
+<S20Window>:
+	name: 's20'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '20.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s6"
+<S21Window>:
+	name: 's21'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '21.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s6"
+<S22Window>:
+	name: 's22'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '22.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s7"
+
+<S23Window>:
+	name: 's23'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '23.png'
+
+		Button:
+			
+            size_hint: .32, .13
+            pos: 90, 253
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s8"
+<S24Window>:
+	name: 's24'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '24.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s9"
+<S25Window>:
+	name: 's25'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '25.png'
+
+		Button:
+			
+            size_hint: .65, .08
+            pos: 40, 80
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s26"
+<S26Window>:
+	name: 's26'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '26.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s9"
+<S27Window>:
+	name: 's27'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '27.png'
+
+		Button:
+			
+            size_hint: .50, .13
+            pos: 70, 80
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s9"
+<S28Window>:
+	name: 's28'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '28.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s10"
+<S29Window>:
+	name: 's29'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '29.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s10"
+<S30Window>:
+	name: 's30'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '30.png'
+
+		Button:
+			
+            size_hint: .75, .13
+            pos: 30, 80
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s31"
+<S31Window>:
+	name: 's31'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '31.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s10"
+<S32Window>:
+	name: 's32'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '32.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s10"
+<S33Window>:
+	name: 's33'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '33.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s11"
+<S34Window>:
+	name: 's34'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '34.png'
+
+		Button:
+			
+            size_hint: .32, .13
+            pos: 90, 253
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s33"
+<S35Window>:
+	name: 's35'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '35.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s12"
+<S36Window>:
+	name: 's36'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '36.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s12"
+
+<S38Window>:
+	name: 's38'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '38.png'
+
+		Button:
+			
+            size_hint: .50, .13
+            pos: 70, 253
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s13"
+<S39Window>:
+	name: 's39'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '39.png'
+
+		Button:
+			
+            size_hint: .60, .13
+            pos: 60, 110
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s14"
+<S40Window>:
+	name: 's40'
+
+	FloatLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '40.png'
+
+		Button:
+			
+            size_hint: .78, .13
+            pos: 30, 80
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s14"
+<S41Window>:
+	name: 's41'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '41.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s16"
+<S42Window>:
+	name: 's42'
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+
+		canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: '42.png'
+
+		Button:
+
+			background_color: 0, 0, 0, 0
+			on_release: app.root.current = "s16"
